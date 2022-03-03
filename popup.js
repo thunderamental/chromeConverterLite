@@ -16,11 +16,7 @@ window.onload= async function(){
     document.getElementById("rightForm").addEventListener("change", rightChange);
     document.getElementById("dropLeft").addEventListener("change", leftChange);
     document.getElementById("dropRight").addEventListener("change", rightChange);
-
     
-    document.getElementById("clearButton").addEventListener("submit", function(event) {
-        event.preventDefault();
-    }, false);
     document.getElementById("clearButton").addEventListener("click", hitClear);
 
     console.log("end of onload")
